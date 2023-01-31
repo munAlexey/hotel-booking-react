@@ -1,0 +1,17 @@
+.about-us__img {
+  width: 100%;
+  grid-area: img;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__img {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__img {
+    width: 384px;
+    height: 576px;
+  }
+}

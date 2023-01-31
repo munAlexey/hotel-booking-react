@@ -1,0 +1,33 @@
+.lead__list {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__list {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__list {
+    width: 80%;
+    max-width: 588px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lead__list {
+    width: 588px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}

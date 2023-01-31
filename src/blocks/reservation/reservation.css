@@ -1,0 +1,16 @@
+.reservation {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reservation {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}

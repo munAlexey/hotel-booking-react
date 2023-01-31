@@ -1,0 +1,21 @@
+.about-us__text-block {
+  grid-area: text;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__text-block {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__text-block {
+    width: 690px;
+    margin: 0;
+  }
+}

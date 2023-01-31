@@ -1,0 +1,18 @@
+.reservation__link {
+  text-decoration: none;
+  color: #424F7B;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}

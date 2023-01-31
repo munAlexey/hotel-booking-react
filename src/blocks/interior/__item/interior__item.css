@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  .interior__item {
+    width: 100%;
+  }  
+}
+
+@media screen and (min-width: 1280px) {
+  .interior__item {
+    width: 344px;
+    height: 193px;
+  }
+}

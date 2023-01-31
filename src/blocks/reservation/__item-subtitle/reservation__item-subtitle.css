@@ -1,0 +1,23 @@
+.reservation__item-subtitle {
+  grid-area: text;
+  margin: 10px 0 20px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__item-subtitle {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__item-subtitle {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reservation__item-subtitle {
+    text-align: left;
+  }
+}

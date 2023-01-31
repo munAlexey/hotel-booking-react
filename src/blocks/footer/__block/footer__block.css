@@ -1,0 +1,36 @@
+.footer__block {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "right"
+  "left";
+}
+
+@media screen and (min-width: 768px) {
+  .footer__block {
+    margin: 0 auto;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__block {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

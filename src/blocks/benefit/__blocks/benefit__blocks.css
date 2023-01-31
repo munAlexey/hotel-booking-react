@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  .benefit__blocks {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .benefit__blocks {
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .benefit__blocks {
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

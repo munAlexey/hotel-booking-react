@@ -1,0 +1,10 @@
+.footer__nav-title {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin: 0 0 24px;
+}

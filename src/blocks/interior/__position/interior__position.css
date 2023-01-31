@@ -1,0 +1,29 @@
+.interior__position {
+  margin: 10px auto 30px;
+  width: 71px;
+}
+
+@media screen and (min-width: 768px) {
+  .interior__position {
+    position: absolute;
+    bottom: 29px;
+    left: 45%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .interior__position {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .interior__position {
+    display: block;
+    position: absolute;
+    bottom: 29px;
+    left: 510px;
+    margin: 0;
+  }
+}

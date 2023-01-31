@@ -1,0 +1,14 @@
+.footer__contacts {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 2px solid #0E1734;
+  border-top: 2px solid #0E1734;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contacts {
+    width: 186px;
+    border: none;
+    padding: 0;
+  }
+}

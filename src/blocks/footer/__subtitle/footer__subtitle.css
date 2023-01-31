@@ -1,0 +1,18 @@
+.footer__subtitle {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__subtitle {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D9DBDE;
+    display: inline-block;
+    width: 186px;
+    margin: 13px 0 20px;
+    padding: 0;
+  }
+}

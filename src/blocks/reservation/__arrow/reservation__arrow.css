@@ -1,0 +1,15 @@
+.reservation__arrow::after {
+  content: url('../../../img/1440/Arrow_Right_small.svg');
+  position: absolute;
+  top: 2px;
+  left: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__arrow::after {
+    content: url('../../../img/1440/Arrow_Right.svg');
+    position: absolute;
+    top: 2px;
+    left: 110px;
+  }
+}

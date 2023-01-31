@@ -1,0 +1,31 @@
+.reservation__item {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "title"
+  "img"
+  "text"
+  "link";
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__item {
+    align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .reservation__item {
+    width: 384px;
+    display: block;
+  }
+}

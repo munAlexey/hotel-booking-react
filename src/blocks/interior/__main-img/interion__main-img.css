@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .interior__main-img {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .interior__main-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .interior__main-img {
+    display: block;
+    position: relative;
+  }
+}

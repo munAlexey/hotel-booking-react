@@ -1,0 +1,27 @@
+.reservation__list {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__list {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reservation__list {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reservation__list {
+    width: 1200px;
+  }
+}

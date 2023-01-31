@@ -1,0 +1,34 @@
+.reservation__item-title {
+  margin: 32px 0 16px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  grid-area: title;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__item-title {
+    margin: 32px 0 16px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__item-title {
+    margin: 32px 0 16px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: left;
+  }
+}

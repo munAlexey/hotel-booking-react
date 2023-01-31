@@ -1,0 +1,36 @@
+.interior__list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .interior__list {
+    display: flex;
+    gap: 3px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .interior__list {
+    display: flex;
+    width: 100%;
+    gap: 3px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .interior__list {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}

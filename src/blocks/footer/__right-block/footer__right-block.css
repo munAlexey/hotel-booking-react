@@ -1,0 +1,17 @@
+.footer__right-block {
+  grid-area: right;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__right-block {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__right-block {
+    width: 636px;
+  }
+}

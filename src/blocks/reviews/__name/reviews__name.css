@@ -1,0 +1,9 @@
+.reviews__name {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #192252;
+  margin: 0 0 40px;
+}

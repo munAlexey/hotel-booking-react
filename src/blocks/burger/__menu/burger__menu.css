@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .burger__menu {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .burger__menu::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    top: 6px;
+    left: 0;
+  }
+  
+  .burger__menu::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    top: -6px;
+    left: 0;
+  }
+}

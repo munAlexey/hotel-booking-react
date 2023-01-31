@@ -1,0 +1,21 @@
+.reservation__button {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__button {
+    margin-bottom: 58px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__button {
+    margin-bottom: 68px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reservation__button {
+    margin-bottom: 88px;
+  }
+}

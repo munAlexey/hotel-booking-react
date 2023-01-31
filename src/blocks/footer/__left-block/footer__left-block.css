@@ -1,0 +1,36 @@
+.footer__left-block {
+  grid-area: left;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__left-block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__left-block {
+    width: auto;
+    display: block;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__left-block {
+    width: 229px;
+    display: block;
+    padding: 0;
+    margin-top: 0;
+  }
+}

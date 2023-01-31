@@ -1,0 +1,10 @@
+.toogle__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+.about-us__block {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "text"
+  "img";
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__block {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 80px auto;
+    gap: 3%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__block {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+}

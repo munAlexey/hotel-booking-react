@@ -1,0 +1,22 @@
+.reservation__more {
+  text-decoration: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #424F7B;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .reservation__more {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px  ) {
+  .reservation__more {
+    display: none;
+  }
+}

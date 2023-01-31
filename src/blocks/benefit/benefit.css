@@ -1,0 +1,15 @@
+.benefit {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .benefit {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .benefit {
+    width: 1440px;
+  }
+}

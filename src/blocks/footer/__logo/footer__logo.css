@@ -1,0 +1,12 @@
+.footer__logo {
+  font-weight: 700;
+  color: #ffffff;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    font-weight: 700;
+    color: #ffffff;
+  }
+}

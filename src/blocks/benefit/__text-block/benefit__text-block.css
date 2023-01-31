@@ -1,0 +1,9 @@
+.benefit__text-block {
+  grid-area: text;
+}
+
+@media screen and (min-width: 768px) {
+  .benefit__text-block {
+    width: 584px;
+  }
+}

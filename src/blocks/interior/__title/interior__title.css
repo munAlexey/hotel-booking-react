@@ -1,0 +1,18 @@
+.interior__title {
+  width: 90%;
+  margin: 30px auto 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .interior__title {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .interior__title {
+    margin: 0 0 38px;
+    padding-top: 80px;
+  }
+}
