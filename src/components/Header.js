@@ -14,7 +14,7 @@ function Header() {
               <nav>
                 <ul className="header__list">
                   <li className="header__item">
-                    <a href="#" className="header__link link">
+                    <a href="#reservation" className="header__link link">
                       Дома
                     </a>
                   </li>

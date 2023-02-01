@@ -5,7 +5,7 @@ import reservation3 from "../img/1440/reservation-3.jpg";
 
 function Reservation() {
   return (
-    <section className="reservation">
+    <section className="reservation" id="reservation">
         <div className="reservation__block">
           <h2 className="section-title">Выберите ваш дом</h2>
           <p className="section-subtitle reservation__subtitle">
