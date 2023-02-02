@@ -1,0 +1,28 @@
+.pages {
+  padding-bottom: 622px;
+  font-family: 'Inter', 'Montserrat', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .pages {
+    padding-bottom: 364px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pages {
+    padding-bottom: 267px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .pages {
+    padding-bottom: 407px;
+  }
+}

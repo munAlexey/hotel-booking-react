@@ -1,0 +1,17 @@
+.contacts__img {
+  width: 128px;
+  cursor: pointer;
+}
+
+.contacts__img:hover {
+  animation: WeAre 0.8s infinite ease-in-out;
+}
+
+@keyframes WeAre {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,13 @@
+.lead__img_btm {
+  animation: slideout 1s ease-in;
+}
+
+@keyframes slideout {
+  from {
+    margin-top: 100vh;
+  }
+
+  to {
+    margin-top: 0;
+  }
+}

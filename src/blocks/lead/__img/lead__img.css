@@ -1,5 +1,6 @@
 .lead__img { 
   width: 100%;
+  animation: slidein 1s ease;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,5 +13,15 @@
   .lead__img { 
     width: 180px;
     height: 588px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -100vh;
+  }
+
+  to {
+    margin-top: 0;
   }
 }

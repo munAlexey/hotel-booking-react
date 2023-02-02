@@ -30,7 +30,7 @@ function Lead() {
           </li>
           <li className="lead__item">
             <img
-              className="lead__img"
+              className="lead__img lead__img_btm"
               src={lead_img2}
               alt="Вторая часть дома"
             />

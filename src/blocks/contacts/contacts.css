@@ -1,17 +1,15 @@
-.reservation {
+.contacts {
   margin: 0 auto;
-  min-height: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .reservation {
+  .contacts {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .reservation {
+  .contacts {
     width: 1440px;
-    margin: 0 auto;
   }
 }

@@ -1,0 +1,17 @@
+.contacts__title {
+  text-align: center;
+  color: #192252;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__title {
+    font-size: 24px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contacts__title {
+    font-size: 32px;
+  }
+}

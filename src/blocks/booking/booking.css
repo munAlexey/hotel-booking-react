@@ -1,17 +1,15 @@
-.reservation {
+.booking {
   margin: 0 auto;
-  min-height: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .reservation {
+  .booking {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .reservation {
+  .booking {
     width: 1440px;
-    margin: 0 auto;
   }
 }
