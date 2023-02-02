@@ -20,7 +20,7 @@ function App() {
         <Header isOpen={close} />
         {isOpen ? (<div className="pages">
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/main" element={<Main />} />
             <Route path="/homes" element={<Reservation />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/contacts" element={<Contacts />} />

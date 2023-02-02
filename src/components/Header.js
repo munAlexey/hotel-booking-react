@@ -5,7 +5,7 @@ function Header(props) {
   return (
     <header className="header">
       <div className="header__block">
-        <a href="/" className="logo">
+        <a href="/main" className="logo" onClick={props.isOpen}>
           HotelBooking
         </a>
         <div className="burger">
