@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
       <div className="header__block">
@@ -16,6 +16,7 @@ function Header() {
             <ul className="header__list">
               <li className="header__item">
                 <NavLink
+                onClick={props.isOpen}
                   to="/homes"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
@@ -26,6 +27,7 @@ function Header() {
               </li>
               <li className="header__item">
                 <NavLink
+                onClick={props.isOpen}
                   to="/booking"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
@@ -36,6 +38,7 @@ function Header() {
               </li>
               <li className="header__item">
                 <NavLink
+                onClick={props.isOpen}
                   to="/contacts"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
