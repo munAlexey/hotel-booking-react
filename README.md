@@ -10,15 +10,13 @@
 
 ## Ссылка на Gh-pages
 
-Ссылка на макет в Figma
-Gh-pages
+* [Hotel-Booking](https://munalexey.github.io/hotel-booking-react/)
 
-Ссылка на Gh-pages
-Инструменты
 
-Гриды
-Флексы
-Медиа-запросы
-Js (ООП)
-React с использованием (useState, useEffect)
-'Проект написан по методологии БЭМ'
+1. Гриды
+2. Флексы
+3. Медиа-запросы
+4. Js
+5. React
+6. 'Проект написан по методологии БЭМ'
+7. React Router
