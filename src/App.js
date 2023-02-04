@@ -10,22 +10,19 @@ import Reservation from "./components/Reservation";
 import Contacts from "./components/Contacts";
 
 function App() {
-  const [isOpen, setIsOpen] = React.useState(false);
-  function close() {
-    setIsOpen(true);
-  }
+  
   return (
     <div className="App">
       <div className="page">
-        <Header isOpen={close} />
-        {isOpen ? (<div className="pages">
+        <Header />
+        <div className="pages">
           <Routes>
-            <Route path="/main" element={<Main />} />
+            <Route path="/" element={<Main />} />
             <Route path="/homes" element={<Reservation />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
-        </div>) : <Main />}
+        </div>
         
 
         <Footer />

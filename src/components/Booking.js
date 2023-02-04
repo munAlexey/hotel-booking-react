@@ -3,8 +3,10 @@ import React from "react";
 function Booking() {
   return (
     <div className="booking">
-      <h2>Emoji Critic — всё об эмодзи</h2>
-      <p>#1 среди авторов обзоров на эмодзи в этом году!</p>
+      <div className="booking__block">
+        <h2>Plug</h2>
+        <p>a little bit later</p>
+      </div>
     </div>
   );
 }

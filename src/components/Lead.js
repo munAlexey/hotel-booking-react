@@ -2,9 +2,9 @@ import React from "react";
 import lead_img1 from "../img/1440/lead__img1.jpg";
 import lead_img2 from "../img/1440/lead__img2.jpg";
 import lead_img3 from "../img/1440/lead__img3.jpg";
+import { NavLink } from "react-router-dom";
 
 function Lead() {
-
   return (
     <section className="lead">
       <div className="lead__blocks">
@@ -16,9 +16,12 @@ function Lead() {
             Самые выгодные предложения по аренде коттеджей и загородных домов в
             Москве и области
           </p>
-          <button className="button lead__button button_hover">
+          <NavLink
+            to="/booking"
+            className="button button_hover lead__button"
+          >
             Бронирование
-          </button>
+          </NavLink>
         </div>
         <ul className="lead__list">
           <li className="lead__item">

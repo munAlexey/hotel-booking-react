@@ -5,9 +5,9 @@ function Header(props) {
   return (
     <header className="header">
       <div className="header__block">
-        <a href="/main" className="logo" onClick={props.isOpen}>
+        <NavLink to="/" className="logo">
           HotelBooking
-        </a>
+        </NavLink>
         <div className="burger">
           <span className="burger__menu"></span>
         </div>
@@ -16,7 +16,6 @@ function Header(props) {
             <ul className="header__list">
               <li className="header__item">
                 <NavLink
-                onClick={props.isOpen}
                   to="/homes"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
@@ -27,7 +26,6 @@ function Header(props) {
               </li>
               <li className="header__item">
                 <NavLink
-                onClick={props.isOpen}
                   to="/booking"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
@@ -38,7 +36,6 @@ function Header(props) {
               </li>
               <li className="header__item">
                 <NavLink
-                onClick={props.isOpen}
                   to="/contacts"
                   className={({ isActive }) =>
                     `header__link ${isActive ? "link " : ""}`
@@ -49,9 +46,13 @@ function Header(props) {
               </li>
             </ul>
           </nav>
-          <button className="button header__button button_hover" type="button">
+          <NavLink
+            onClick={props.isOpen}
+            to="/booking"
+            className="button header__button button_hover"
+          >
             Бронировать
-          </button>
+          </NavLink>
         </div>
       </div>
     </header>

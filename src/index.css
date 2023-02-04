@@ -83,6 +83,7 @@
 @import url('./blocks/interior/__list/interior__list.css');
 @import url('./blocks/interior/__item/interior__item.css');
 @import url('./blocks/interior/__img/interior__img.css');
+@import url('./blocks/interior/__item-img/interior__item-img.css');
 @import url('./blocks/interior/__position/interior__position.css');
 
 /* section reservation */
@@ -115,6 +116,7 @@
 /* booking */
 
 @import url('./blocks/booking/booking.css');
+@import url('./blocks/booking/__block/booking__block.css');
 
 /* contacts */
 
